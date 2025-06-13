@@ -265,7 +265,7 @@ const animator = new ScrollAnimationFramework({
 
 ### Download
 
-Download the latest release from the [releases page](https://github.com/Muhammed-Nur/scroll-animation-framework).
+Download the latest release from the [releases page](https://github.com/Muhammed-Nur/scroll-animation-framework/releases/).
 
 ## 🎨 Examples
 
