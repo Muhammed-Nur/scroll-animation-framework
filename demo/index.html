@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Scroll Animation Framework - Animate.css Integration for Modern Web</title>
+        <link rel="shortcut icon" href="assets/img/favicon.ico"/>
+        <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
+
+        <!-- SEO TAG START -->
+        <meta name="title" content="Scroll Animation Framework - Animate.css Integration for Modern Web">
+        <meta name="description" content="Advanced JavaScript framework for scroll-based animations with Animate.css integration. Create stunning scroll animations with intersection observer, stagger effects, and performance optimization. Easy to use, mobile-friendly, and accessibility compliant.">
+        <meta name="keywords" content="scroll animation, animate.css, javascript framework, intersection observer, web animations, scroll effects, stagger animations, performance optimization, mobile animations, accessibility, CSS animations, scroll trigger, animation library, frontend development, UX animations">
+        <!-- SEO TAG END -->
+
+        <!-- TAB COLOR START -->
+        <meta name="theme-color" content="#080B24">
+        <meta name="msapplication-TileColor" content="#080B24">
+        <!-- TAB COLOR END -->
+        
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        <link rel="stylesheet" href="../dist/animate-css/animate.min.css">
+    </head>
+
+    <body class="csm-gradient-bg-1">
+        <header class="csm-header-1 csm-gradient-bg-1">
+            <div class="csm-container-1">
+                <div class="csm-header-row-1" data-scroll-container data-scroll-animate="fadeInDown" data-scroll-stagger="100">
+                    <div class="csmhr1-col-1">
+                        <div class="csm-header-row-2">
+                            <div class="csmhr2-col-1">
+                                <a href="../demo/" title="Homepage">
+                                    <img src="assets/img/main-logo-white.svg" width="1374" height="400" alt="Scroll Animation Framework Logo">
+                                </a>
+                            </div>
+
+                            <div class="csmhr2-col-2">
+                                <a href="https://muhammednurtasova.com/" title="Muhammed Nur Taşova" target="_blank">
+                                    <img src="assets/img/muhammed-nur-tasova-logo-white.svg" width="1650" height="420" alt="Muhammed Nur Taşova Logo">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="csmhr1-col-2">
+                        <div class="cms-menu-container jsMobileCont">
+                            <nav>
+                                <ul class="csm-main-menu-1">
+                                    <li>
+                                        <a href="#get-started" title="Get Started" class="csmm1-link-1">Get Started</a>
+                                    </li>
+                                    <li>
+                                        <a href="#animation-list" title="Animation List" class="csmm1-link-1">Animation List</a>
+                                    </li>
+                                    <li>
+                                        <a href="#examples" title="Examples" class="csmm1-link-1">Examples</a>
+                                    </li>
+                                    <li>
+                                        <a href="assets/download/scroll-animation-framework.zip" title="Direct Download" class="csm-btn-1" target="_blank"><i class="fa-solid fa-cloud-arrow-down"></i> Download</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/muhammed-Nur/scroll-animation-framework" title="Scroll Animation Framework Link" target="_blank"  class="csm-btn-2"><i class="fa-brands fa-github"></i> Github</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <div class="csm-humberge-m-1 csm-mobileJS-1">
+                            <div class="csm-humberge-m-1-top no-animation"></div>
+                            <div class="csm-humberge-m-1-bottom no-animation"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hmpg-section-1">
+                <div class="csm-banner-1">
+                    <div class="csm-container-1">
+                        <div class="csm-row-1">
+                            <div class="csmr1-col-1" data-scroll-animate="fadeInLeft" data-scroll-delay="100">
+                                <div class="csmb1-id-1">
+                                    <img src="assets/img/only-logo.svg" width="464" height="453" alt="Scroll Animation Framework Logo" class="csmb1-img-1">
+                                </div>
+
+                                <h1 class="csmb1-head-1">Scroll Animation <span>Framework</span></h1>
+
+                                <p class="csmb1-desc-1">A modern, performance-focused, and flexible JavaScript framework for implementing scroll-based animations in web pages with seamless integration with the popular Animate.css library.</p>
+                            </div>
+
+                            <div class="csmr1-col-2" data-scroll-animate="fadeInRight" data-scroll-delay="100">
+                                <h2 class="csmb1-head-2">✨ Core Features</h2>
+
+                                <ul class="csmb1-list-1">
+                                    <li>
+                                        <span>Animate.css Integration:</span> Full compatibility with the popular <a href="https://animate.style/" title="Animate.css Website Link" target="_blank">Animate.css</a> library
+                                    </li>
+                                    <li>
+                                        <span>Intersection Observer API:</span> Modern and performant scroll detection
+                                    </li>
+                                    <li>
+                                        <span>Automatic Element Detection:</span> Smart element detection based on CSS classes
+                                    </li>
+                                    <li>
+                                        <span>Stagger Animations:</span> Sequential animations for elements within containers
+                                    </li>
+                                    <li>
+                                        <span>Accessibility Support:</span> Automatic adaptation to reduced motion preferences
+                                    </li>
+                                    <li>
+                                        <span>Performance Monitoring:</span> Real-time performance metrics
+                                    </li>
+                                    <li>
+                                        <span>Debug Mode:</span> Detailed logging to facilitate development process (CTRL + D)
+                                    </li>
+                                </ul>
+
+                                <div class="csm-row-2 pt-5">
+                                    <div class="csmr2-col-1">
+                                        <a href="assets/download/scroll-animation-framework.zip" title="Direct Download" class="csm-btn-1 w-full" target="_blank"><i class="fa-solid fa-cloud-arrow-down"></i> Download</a>
+                                    </div>
+
+                                    <div class="csmr2-col-2">
+                                        <a href="https://github.com/muhammed-Nur/scroll-animation-framework" title="Scroll Animation Framework Link" target="_blank" class="csm-btn-2 w-full"><i class="fa-brands fa-github"></i> Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hmpg-section-2" id="get-started">
+                <div class="csm-container-1">
+                    <h2 class="csm-head-1 text-center" data-scroll-animate="jackInTheBox" data-scroll-delay="100">🚀 Installation and Getting Started</h2>
+
+                    <div class="csm-row-3 mb-10" data-scroll-container data-scroll-animation="bounceIn" data-scroll-stagger="100">
+                        <div class="csmr3-col-1">
+                            <div class="csm-card-1">
+                                <h3 class="csm-head-2">Requirements</h3>
+                                <p class="csm-desc-1">1. <strong>Include Animate.css</strong> library on your page:</p>
+
+                                <p class="csm-desc-1">CDN</p>
+                                <div class="csm-code-cont-1">
+                                    <p class="csm-code-text-1">
+                                        <span class="color-3">&lt;link</span>
+                                        <span class="color-1">rel</span>=
+                                        <span class="color-4">"stylesheet"</span> 
+                                        <span class="color-1">href</span>=
+                                        <span class="color-4">"https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"</span>
+                                        <span class="color-3">&gt;</span>
+                                    </p>
+                                </div>
+
+                                <p class="csm-desc-1">Local</p>
+                                <div class="csm-code-cont-1">
+                                    <p class="csm-code-text-1">
+                                        <span class="color-3">&lt;link</span>
+                                        <span class="color-1">rel</span>=
+                                        <span class="color-4">"stylesheet"</span> 
+                                        <span class="color-1">href</span>=
+                                        <span class="color-4">"../dist/animate-css/animate.min.css"</span>
+                                        <span class="color-3">&gt;</span>
+                                    </p>
+                                </div>
+                                
+                                <p class="csm-desc-1">2. <strong>Include the framework</strong> file:</p>
+                                <div class="csm-code-cont-1">
+                                    <p class="csm-code-text-1">
+                                        <span class="color-3">&lt;script</span>
+                                        <span class="color-1">src</span>=
+                                        <span class="color-4">"../dist/js/scroll-animation-framework.min.js"</span>
+                                        <span class="color-3">&gt;&lt;/script&gt;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h3 class="csm-head-2">Auto-initialization</h3>
+                                <p class="csm-desc-1">The framework starts automatically by default. To disable:</p>
+                                
+                                <div class="csm-code-cont-1">
+                                    <p class="csm-code-text-1">
+                                        <span class="color-3">&lt;script&gt;</span><br>
+                                        <span class="color-1 pl-3">window</span><span class="color-2">.SCROLL_ANIMATOR_AUTO_INIT =</span> <span class="color-4">false;</span><br>
+                                        <span class="color-3">&lt;/script&gt;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h3 class="csm-head-2">Manual Initialization</h3>
+                                
+                                <div class="csm-code-cont-1">
+                                    <p class="csm-code-text-1">
+                                        <span class="color-4">const</span> <span class="color-2">scrollAnimator</span> = <span class="color-4">new</span> <span class="color-2">ScrollAnimationFramework</span> <span class="color-3">&#40;&#123;</span>
+                                        <br>
+                                        <span class="color-4 pl-3">debug:</span> <span class="color-2">true,</span><br>
+                                        <span class="color-4 pl-3">defaultAnimation:</span> <span class="color-2">'fadeInUp',</span><br>
+                                        <span class="color-4 pl-3">staggerDelay:</span> <span class="color-2">200</span><br>
+                                        <span class="color-3">&#125;&#41;;</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2 class="csm-head-1 text-center" data-scroll-animate="jackInTheBox" data-scroll-delay="100">📖 Usage Methods</h2>
+
+                    <div class="csm-row-3 mb-10" data-scroll-container data-scroll-animation="lightSpeedInLeft" data-scroll-stagger="100">
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Data Attribute Method</h4>
+                                
+                                <code class="csm-code-cont-2">&lt;!-- Simple animation --&gt;
+                                    &lt;div data-scroll-animate&#x3D;&quot;fadeInUp&quot;&gt;Hello World!&lt;&#x2F;div&gt;
+
+                                    &lt;!-- With detailed settings --&gt;
+                                    &lt;div data-scroll-animate&#x3D;&quot;bounceIn&quot;
+                                        data-scroll-duration&#x3D;&quot;1.5s&quot;
+                                        data-scroll-delay&#x3D;&quot;200&quot;&gt;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detailed Animation
+                                    &lt;&#x2F;div&gt;
+
+                                    &lt;!-- With all settings --&gt;
+                                    &lt;div data-scroll-animate&#x3D;&quot;slideInLeft&quot;
+                                    data-scroll-duration&#x3D;&quot;2s&quot;
+                                    data-scroll-delay&#x3D;&quot;500&quot;
+                                    data-scroll-callback&#x3D;&quot;myCallback&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fully Controlled Animation
+                                    &lt;&#x2F;div&gt;
+                                </code>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Multiple Elements Usage (Container)</h4>
+                                
+                                <code class="csm-code-cont-2">&lt;!-- Multiple animations with container --&gt;
+                                    &lt;div data-scroll-container
+                                    data-scroll-animate&#x3D;&quot;fadeInUp&quot;
+                                    data-scroll-stagger&#x3D;&quot;200&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;item&quot;&gt;Element 1&lt;&#x2F;div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;item&quot;&gt;Element 2&lt;&#x2F;div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;item&quot;&gt;Element 3&lt;&#x2F;div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;item&quot;&gt;Element 4&lt;&#x2F;div&gt;
+                                    &lt;&#x2F;div&gt;
+
+                                    &lt;!-- With different animations --&gt;
+                                    &lt;div data-scroll-container
+                                    data-scroll-animate&#x3D;&quot;bounceIn&quot;
+                                    data-scroll-duration&#x3D;&quot;1.2s&quot;
+                                    data-scroll-stagger&#x3D;&quot;150&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;card&quot;&gt;Card 1&lt;&#x2F;div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;card&quot;&gt;Card 2&lt;&#x2F;div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;card&quot;&gt;Card 3&lt;&#x2F;div&gt;
+                                    &lt;&#x2F;div&gt;
+                                </code>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-1">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Class-Based Auto Detection</h4>
+                                
+                                <code class="csm-code-cont-2">&lt;div class&#x3D;&quot;card&quot;&gt;This gets automatic slide-up animation&lt;&#x2F;div&gt;
+
+                                    &lt;div class&#x3D;&quot;hero-title&quot;&gt;This gets automatic fade animation&lt;&#x2F;div&gt;
+
+                                    &lt;div class&#x3D;&quot;feature-box&quot;&gt;This gets automatic slide-left animation&lt;&#x2F;div&gt;
+
+                                    &lt;button class&#x3D;&quot;button&quot;&gt;This gets automatic bounce animation&lt;&#x2F;button&gt;
+                                </code>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Programmatic Usage with JavaScript</h4>
+                                
+                                <code class="csm-code-cont-2">&#x2F;&#x2F; Adding element
+                                    scrollAnimator.addElement(document.querySelector(&#39;#myElement&#39;), {
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animation: &#39;zoomIn&#39;,
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duration: &#39;1.5s&#39;,
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delay: 300
+                                    });
+
+                                    &#x2F;&#x2F; Triggering animation
+                                    scrollAnimator.triggerAnimation(&#39;.my-selector&#39;, {
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;animation: &#39;pulse&#39;,
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;duration: &#39;2s&#39;
+                                    });
+
+                                    &#x2F;&#x2F; Resetting all animations
+                                    scrollAnimator.resetAllAnimations();
+
+                                    &#x2F;&#x2F; Updating configuration
+                                    scrollAnimator.updateConfig({
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaultAnimation: &#39;slideInRight&#39;,
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;staggerDelay: 200
+                                    });
+                                </code>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Advanced Usage Examples</h4>
+                                
+                                <code class="csm-code-cont-2">&lt;!-- With callback function --&gt;
+                                    &lt;div data-scroll-animate&#x3D;&quot;jackInTheBox&quot;
+                                    data-scroll-callback&#x3D;&quot;elementAnimated&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Element with Callback
+                                    &lt;&#x2F;div&gt;
+
+                                    &lt;!-- With different threshold --&gt;
+                                    &lt;div data-scroll-animate&#x3D;&quot;rotateIn&quot;
+                                    data-scroll-threshold&#x3D;&quot;0.8&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Late Triggered Element
+                                    &lt;&#x2F;div&gt;
+
+                                    &lt;!-- Combination example --&gt;
+                                    &lt;section data-scroll-container data-scroll-animate&#x3D;&quot;fadeInUp&quot; data-scroll-stagger&#x3D;&quot;100&quot;&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2 data-scroll-animate&#x3D;&quot;slideInDown&quot; data-scroll-delay&#x3D;&quot;0&quot;&gt;Title&lt;&#x2F;h2&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p data-scroll-animate&#x3D;&quot;fadeIn&quot; data-scroll-delay&#x3D;&quot;200&quot;&gt;Description&lt;&#x2F;p&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;cards&quot;&gt;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;card&quot;&gt;Card 1&lt;&#x2F;div&gt;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;card&quot;&gt;Card 2&lt;&#x2F;div&gt;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class&#x3D;&quot;card&quot;&gt;Card 3&lt;&#x2F;div&gt;
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&#x2F;div&gt;
+                                    &lt;&#x2F;section&gt;
+                                </code>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Configuration Options</h4>
+                                
+                                <code class="csm-code-cont-2">&#x2F;&#x2F; Framework initialization
+                                    const scrollAnimator &#x3D; new ScrollAnimationFramework({
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2F;&#x2F; Basic settings
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaultAnimation: &#39;fadeInUp&#39;,
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;defaultDuration: &#39;1s&#39;,
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;staggerDelay: 150,
+                                        
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2F;&#x2F; Debug
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;debug: true,
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;performanceMonitor: true,
+                                        
+                                        &#x2F;&#x2F; Callbacks
+                                        onElementAnimated: (element, config) &#x3D;&gt; {
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(&#39;Element animation completed:&#39;, element);
+                                        },
+                                        onAllAnimationsComplete: () &#x3D;&gt; {
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(&#39;All animations completed!&#39;);
+                                        }
+                                    });
+                                </code>
+                            </div>
+                        </div>
+
+                        <div class="csmr3-col-2">
+                            <div class="csm-card-1">
+                                <h4 class="csm-head-2">Event Listeners</h4>
+                                
+                                <code class="csm-code-cont-2">&#x2F;&#x2F; When element animation completes
+                                    document.addEventListener(&#39;scrollAnimationComplete&#39;, (event) &#x3D;&gt; {
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;const { element, config } &#x3D; event.detail;
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(&#39;Animation completed:&#39;, element);
+                                    });
+
+                                    &#x2F;&#x2F; Custom callback function
+                                    window.myCallback &#x3D; function(element) {
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(&#39;Custom callback executed:&#39;, element);
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2F;&#x2F; Additional operations...
+                                    };
+                                </code>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="csm-head-1 text-center" data-scroll-animate="jackInTheBox" data-scroll-delay="100">💡 Tips</h3>
+
+                    <div class="csm-card-1" data-scroll-animate="jackInTheBox" data-scroll-delay="100">
+                        <ol class="csm-mm-1">
+                            <li>
+                                <strong>Performance:</strong> Use <span>data-scroll-container</span> for multiple elements
+                            </li>
+                            <li>
+                                <strong>Accessibility:</strong> Framework automatically supports <span>prefers-reduced-motion</span>
+                            </li>
+                            <li>
+                                <strong>Debug:</strong> Use <span>debug: true</span> during development
+                            </li>
+                            <li>
+                                <strong>Stagger:</strong> Use stagger effects for multiple elements to add visual richness
+                            </li>
+                            <li>
+                                <strong>Duration:</strong> Use 0.3-0.8s for fast animations, 1-2s for dramatic effects
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hmpg-section-3" id="animation-list">
+                <div class="csm-container-1 pt-10">
+                    <h3 class="csm-head-1 text-center" data-scroll-animate="jackInTheBox" data-scroll-delay="100">📋 Animation Categories and List</h3>
+
+                    <div class="csm-row-4 mb-10" data-scroll-container data-scroll-animation="backInLeft" data-scroll-stagger="100">
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🎯</span> Attention Seekers</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>bounce</li>
+                                    <li>flash</li>
+                                    <li>pulse</li>
+                                    <li>rubberBand</li>
+                                    <li>shakeX</li>
+                                    <li>shakeY</li>
+                                    <li>headShake</li>
+                                    <li>swing</li>
+                                    <li>tada</li>
+                                    <li>wobble</li>
+                                    <li>jello</li>
+                                    <li>heartBeat</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>⬅️</span> Back Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>backInDown</li>
+                                    <li>backInLeft</li>
+                                    <li>backInRight</li>
+                                    <li>backInUp</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>➡️</span> Back Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>backOutDown</li>
+                                    <li>backOutLeft</li>
+                                    <li>backOutRight</li>
+                                    <li>backOutUp</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🏀</span> Bouncing Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>bounceIn</li>
+                                    <li>bounceInDown</li>
+                                    <li>bounceInLeft</li>
+                                    <li>bounceInRight</li>
+                                    <li>bounceInUp</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>🏀</span> Bouncing Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>bounceOut</li>
+                                    <li>bounceOutDown</li>
+                                    <li>bounceOutLeft</li>
+                                    <li>bounceOutRight</li>
+                                    <li>bounceOutUp</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🌫️</span> Fading Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>fadeIn</li>
+                                    <li>fadeInDown</li>
+                                    <li>fadeInDownBig</li>
+                                    <li>fadeInLeft</li>
+                                    <li>fadeInLeftBig</li>
+                                    <li>fadeInRight</li>
+                                    <li>fadeInRightBig</li>
+                                    <li>fadeInUp</li>
+                                    <li>fadeInUpBig</li>
+                                    <li>fadeInTopLeft</li>
+                                    <li>fadeInTopRight</li>
+                                    <li>fadeInBottomLeft</li>
+                                    <li>fadeInBottomRight</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🌫️</span> Fading Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>fadeOut</li>
+                                    <li>fadeOutDown</li>
+                                    <li>fadeOutDownBig</li>
+                                    <li>fadeOutLeft</li>
+                                    <li>fadeOutLeftBig</li>
+                                    <li>fadeOutRight</li>
+                                    <li>fadeOutRightBig</li>
+                                    <li>fadeOutUp</li>
+                                    <li>fadeOutUpBig</li>
+                                    <li>fadeOutTopLeft</li>
+                                    <li>fadeOutTopRight</li>
+                                    <li>fadeOutBottomRight</li>
+                                    <li>fadeOutBottomLeft</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🔄</span> Flippers</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>flip</li>
+                                    <li>flipInX</li>
+                                    <li>flipInY</li>
+                                    <li>flipOutX</li>
+                                    <li>flipOutY</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>⚡</span> Lightspeed</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>lightSpeedInRight</li>
+                                    <li>lightSpeedInLeft</li>
+                                    <li>lightSpeedOutRight</li>
+                                    <li>lightSpeedOutLeft</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🔄</span> Rotating Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>rotateIn</li>
+                                    <li>rotateInDownLeft</li>
+                                    <li>rotateInDownRight</li>
+                                    <li>rotateInUpLeft</li>
+                                    <li>rotateInUpRight</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>🔄</span> Rotating Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>rotateOut</li>
+                                    <li>rotateOutDownLeft</li>
+                                    <li>rotateOutDownRight</li>
+                                    <li>rotateOutUpLeft</li>
+                                    <li>rotateOutUpRight</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>📐</span> Sliding Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>slideInDown</li>
+                                    <li>slideInLeft</li>
+                                    <li>slideInRight</li>
+                                    <li>slideInUp</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>📐</span> Sliding Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>slideOutDown</li>
+                                    <li>slideOutLeft</li>
+                                    <li>slideOutRight</li>
+                                    <li>slideOutUp</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>📐</span> Sliding Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>slideInDown</li>
+                                    <li>slideInLeft</li>
+                                    <li>slideInRight</li>
+                                    <li>slideInUp</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>📐</span> Sliding Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>slideOutDown</li>
+                                    <li>slideOutLeft</li>
+                                    <li>slideOutRight</li>
+                                    <li>slideOutUp</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>🔍</span> Zooming Entrances</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>zoomIn</li>
+                                    <li>zoomInDown</li>
+                                    <li>zoomInLeft</li>
+                                    <li>zoomInRight</li>
+                                    <li>zoomInUp</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>🔍</span> Zooming Exits</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>zoomOut</li>
+                                    <li>zoomOutDown</li>
+                                    <li>zoomOutLeft</li>
+                                    <li>zoomOutRight</li>
+                                    <li>zoomOutUp</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="csmr4-col-1">
+                            <div class="csm-card-2">
+                                <h4 class="csmc2-text-1"><span>⭐</span> Special Animations</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>hinge</li>
+                                    <li>jackInTheBox</li>
+                                    <li>rollIn</li>
+                                    <li>rollOut</li>
+                                </ul>
+
+                                <h4 class="csmc2-text-1"><span>🎯</span> Common Shortcuts</h4>
+
+                                <ul class="csmc2-mm-1">
+                                    <li>fade</li>
+                                    <li>slide-up</li>
+                                    <li>slide-down</li>
+                                    <li>slide-left</li>
+                                    <li>slide-right</li>
+                                    <li>zoom</li>
+                                    <li>elastic</li>
+                                    <li>attention</li>
+                                    <li>jack</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="hmpg-section-4" id="examples">
+                <div class="csm-container-1">
+                    <h3 class="csm-head-1 text-center" data-scroll-animate="jackInTheBox" data-scroll-delay="100">📋 Examples</h3>
+
+                    <div class="csm-row-5" data-scroll-container data-scroll-animation="fadeInUp" data-scroll-stagger="100">
+                        <div class="csmr5-col-1 demo-card">
+                            <div class="csm-card-3">
+                                <h5 class="cc3-text-1">Performance</h5>
+
+                                <p class="cc3-text-2">Use <span>data-scroll-container</span> for multiple elements</p>
+                            </div>
+                        </div>
+
+                        <div class="csmr5-col-1 demo-card">
+                            <div class="csm-card-3">
+                                <h5 class="cc3-text-1">Accessibility</h5>
+
+                                <p class="cc3-text-2">Framework automatically supports <span>prefers-reduced-motion</span></p>
+                            </div>
+                        </div>
+
+                        <div class="csmr5-col-1 demo-card">
+                            <div class="csm-card-3">
+                                <h5 class="cc3-text-1">Debug</h5>
+
+                                <p class="cc3-text-2">Use <span>debug: true</span> during development</p>
+                            </div>
+                        </div>
+
+                        <div class="csmr5-col-1 demo-card">
+                            <div class="csm-card-3">
+                                <h5 class="cc3-text-1">Stagger</h5>
+
+                                <p class="cc3-text-2">Use stagger effects for multiple elements to add visual richness</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="csm-row-6" data-scroll-container data-scroll-animation="fadeInUp" data-scroll-stagger="100">
+                        <div class="csmr6-col-1">
+                            <button class="csm-btn-3 w-full" onclick="scrollAnimator.triggerAnimation('.demo-card', {animation: 'tada', duration: '2s'})">
+                                Trigger Animation
+                            </button>
+                        </div>
+
+                        <div class="csmr6-col-1">
+                            <button class="csm-btn-3 w-full" onclick="scrollAnimator.resetAllAnimations()">
+                                Reset
+                            </button>
+                        </div>
+
+                        <div class="csmr6-col-1">
+                            <button class="csm-btn-3 w-full" onclick="toggleDebug()">
+                                Debug Panel
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <a id="goTpButton"></a>
+
+        <!-- Debug Panel -->
+        <div class="csm-debug-panel" id="debugPanel">
+            <div>Observed Elements: <span id="observedCount">0</span></div>
+            <div>Animated Elements: <span id="animatedCount">0</span></div>
+            <div>Performance: <span id="performanceInfo">Good</span></div>
+        </div>
+
+        <footer class="csm-footer-1">
+            <div class="csm-container-1 text-center">
+                <p class="csm-footer-desc-1">
+                    Copyright © <span id="copyrightYearJS"></span> | <a href="https://muhammednurtasova.com/" title="Muhammed Nur Taşova" target="_blank">Muhammed Nur Taşova</a>
+                </p>
+                <p class="csm-footer-desc-1 mb-0">Built with love ❤️</p>
+            </div>
+        </footer>
+
+        <script src="assets/vendor/jquery/jquery-3.4.1.min.js"></script>
+        <script src="../dist/js/scroll-animation-framework.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            document.getElementById('copyrightYearJS').textContent = new Date().getFullYear();
+        </script>
+
+        <script>
+            window.addEventListener('load', () => {
+                if (window.scrollAnimator) {
+                    window.scrollAnimator.updateConfig({ debug: true });
+                } else {
+                    console.error('scrollAnimator yüklenmedi.');
+                }
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.ctrlKey && e.key === 'd') toggleDebug();
+            });
+        </script>
+    </body>
+</html>
