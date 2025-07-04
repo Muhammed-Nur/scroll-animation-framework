@@ -1,6 +1,6 @@
 {
   "name": "scroll-animation-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern, performance-focused, and flexible JavaScript framework for implementing scroll-based animations in web pages with seamless integration with the popular Animate.css library.",
   "main": "dist/js/scroll-animation-framework.min.js",
   "unpkg": "dist/js/scroll-animation-framework.min.js",
