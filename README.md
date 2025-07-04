@@ -5,7 +5,7 @@ A modern, performance-focused, and flexible JavaScript framework for implementin
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/npm/v/scroll-animation-framework.svg)
 ![Downloads](https://img.shields.io/npm/dt/scroll-animation-framework.svg)
-![Size](https://img.shields.io/bundlephobia/minzip/scroll-animation-framework.svg)
+![Size](https://img.shields.io/badge/size-~17KB-orange.svg)
 
 ## ✨ Features
 
