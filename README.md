@@ -3,8 +3,9 @@
 A modern, performance-focused, and flexible JavaScript framework for implementing scroll-based animations in web pages with seamless integration with the popular Animate.css library.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![Size](https://img.shields.io/badge/size-~15KB-orange.svg)
+![Version](https://img.shields.io/npm/v/scroll-animation-framework.svg)
+![Downloads](https://img.shields.io/npm/dt/scroll-animation-framework.svg)
+![Size](https://img.shields.io/bundlephobia/minzip/scroll-animation-framework.svg)
 
 ## ✨ Features
 
@@ -18,20 +19,26 @@ A modern, performance-focused, and flexible JavaScript framework for implementin
 
 ## 🚀 Quick Start
 
-### 1. Include Dependencies
+### 1. Install the package
 
-```html
-<!-- Animate.css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-
-<!-- Local Animate.css -->
-<link rel= "stylesheet" href= "../dist/animate-css/animate.min.css" >
-
-<!-- Scroll Animation Framework -->
-<script src="../dist/js/scroll-animation-framework.min.js"></script>
+```bash
+npm install scroll-animation-framework
 ```
 
-### 2. Basic Usage
+### 2. Include Dependencies
+
+```html
+<!-- Animate.css from CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+<!-- OR Local Animate.css -->
+<link rel="stylesheet" href="dist/animate-css/animate.min.css">
+
+<!-- Scroll Animation Framework -->
+<script src="dist/js/scroll-animation-framework.min.js"></script>
+```
+
+### 3. Basic Usage
 
 ```html
 <!-- Simple fade in animation -->
@@ -61,6 +68,46 @@ Elements are automatically detected based on common CSS classes:
 <div class="card">Auto-animated card</div>
 <h1 class="hero-title">Auto-animated title</h1>
 <div class="feature-box">Auto-animated feature</div>
+```
+
+## 📦 Installation
+
+### Method 1: NPM (Recommended)
+
+```bash
+npm install scroll-animation-framework
+```
+
+Then include in your project:
+
+```html
+<!-- If using from node_modules -->
+<script src="node_modules/scroll-animation-framework/dist/js/scroll-animation-framework.min.js"></script>
+
+<!-- Or if using a bundler like Webpack, Vite, etc. -->
+<script type="module">
+import 'scroll-animation-framework/dist/js/scroll-animation-framework.min.js';
+</script>
+```
+
+### Method 2: CDN
+
+```html
+<!-- Development version -->
+<script src="https://cdn.jsdelivr.net/npm/scroll-animation-framework@1.0.0/dist/js/scroll-animation-framework.js"></script>
+
+<!-- Production version (minified) -->
+<script src="https://cdn.jsdelivr.net/npm/scroll-animation-framework@1.0.0/dist/js/scroll-animation-framework.min.js"></script>
+```
+
+### Method 3: Download Files
+
+1. Download the latest release from the [releases page](https://github.com/Muhammed-Nur/scroll-animation-framework/releases/)
+2. Extract the files to your project directory
+3. Include the script in your HTML:
+
+```html
+<script src="dist/js/scroll-animation-framework.min.js"></script>
 ```
 
 ## 📚 Documentation
@@ -261,12 +308,6 @@ const animator = new ScrollAnimationFramework({
 - Safari 12.1+
 - Edge 16+
 
-## 📦 Installation
-
-### Download
-
-Download the latest release from the [releases page](https://github.com/Muhammed-Nur/scroll-animation-framework/releases/).
-
 ## 🎨 Examples
 
 ### Basic Card Animation
@@ -333,6 +374,39 @@ const animator = new ScrollAnimationFramework({
   animation-duration: var(--animate-duration);
   animation-delay: var(--animate-delay);
 }
+```
+
+## 🔧 Development
+
+### Build Commands
+
+```bash
+# Build everything
+npm run build
+
+# Build only JavaScript
+npm run build:js
+
+# Build only CSS
+npm run build:css
+
+# Development mode with watch
+npm run dev
+
+# Run tests
+npm run test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Lint code
+npm run lint
+
+# Fix linting issues
+npm run lint:fix
+
+# Serve demo
+npm run serve
 ```
 
 ## 📄 License
