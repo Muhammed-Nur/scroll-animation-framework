@@ -94,10 +94,10 @@ import 'scroll-animation-framework/dist/js/scroll-animation-framework.min.js';
 
 ```html
 <!-- Development version -->
-<script src="https://cdn.jsdelivr.net/npm/scroll-animation-framework@1.0.0/dist/js/scroll-animation-framework.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scroll-animation-framework@1.0.2/dist/js/scroll-animation-framework.js"></script>
 
 <!-- Production version (minified) -->
-<script src="https://cdn.jsdelivr.net/npm/scroll-animation-framework@1.0.0/dist/js/scroll-animation-framework.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/scroll-animation-framework@1.0.2/dist/js/scroll-animation-framework.min.js"></script>
 ```
 
 ### Method 3: Download Files
